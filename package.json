@@ -1,5 +1,4 @@
 {
-  "home": "https://santhosh-raajaa.github.io/instagram_clone",
   "dependencies": {
     "expo": "~42.0.0",
     "gh-pages": "^3.2.3",
@@ -13,10 +12,6 @@
     "@babel/core": "^7.9.0"
   },
   "scripts": {
-
-    "predeploy":"yarn run build",
-    "deploy":"gh-pages -d build",
-    "build":"react-scripts build",
 
     "start": "expo start",
     "android": "expo start --android",
